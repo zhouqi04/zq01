@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
+        <module name="Order" />
+        <module name="order-nacos" />
+        <module name="stock-nacos" />
+        <module name="stock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book-service" target="1.8" />
+      <module name="bool-service" target="1.8" />
+      <module name="borrow-service" target="1.8" />
+      <module name="commons" target="1.8" />
+      <module name="eureka-service" target="1.8" />
+      <module name="Order" target="1.8" />
+      <module name="order-nacos" target="1.8" />
+      <module name="SpringCloud" target="1.8" />
+      <module name="stock" target="1.8" />
+      <module name="stock-nacos" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
